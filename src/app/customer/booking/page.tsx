@@ -390,11 +390,17 @@ function CustomerBooking() {
                             <SelectValue placeholder="Select category" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="electronics">
-                              Electronics
-                            </SelectItem>
-                            <SelectItem value="clothing">Clothing</SelectItem>
-                            <SelectItem value="documents">Documents</SelectItem>
+                          
+                            <SelectItem value="vegetables">Vegetables</SelectItem>
+                            <SelectItem value="fruits">Fruits</SelectItem>
+                            <SelectItem value="grainsCereals">Grains & Cereals</SelectItem>
+                            <SelectItem value="legumes">Legumes</SelectItem>
+                            <SelectItem value="dairyproducts">Dairy Products</SelectItem>
+                            <SelectItem value="poultryeggs">Poultry & Eggs</SelectItem>
+                            <SelectItem value="livestock">Livestock</SelectItem>
+                            <SelectItem value="spicesherbs">Spices & Herbs</SelectItem>
+                            <SelectItem value="processedfoods">Processed Foods</SelectItem>
+                          
                             <SelectItem value="other">Other</SelectItem>
                           </SelectContent>
                         </Select>
